@@ -1,0 +1,29 @@
+images
+python eval.py 
+--trained_model=C:/Users/ahmet/Desktop/yolact/yolact_plus_resnet50_objekt_386_772_interrupt.pth 
+--config=yolact_resnet50_objekt 
+--score_threshold=0.3 
+--top_k=15 
+--images=C:/Users/ahmet/Desktop/yolact/in,C:/Users/ahmet/Desktop/yolact/output_video
+
+video
+python eval.py 
+--trained_model=C:/Users/ahmet/Desktop/yolact/yolact_plus_resnet50_objekt_386_772_interrupt.pth 
+--config=yolact_resnet50_objekt 
+--score_threshold=0.3 
+--top_k=15 
+--video=C:/Users/ahmet/Desktop/yolact/video/1.mp4,C:/Users/ahmet/Desktop/yolact/output_video/1.mp4
+
+webcam
+python eval.py 
+--trained_model=C:/Users/ahmet/Desktop/yolact/yolact_plus_resnet50_objekt_386_772_interrupt.pth 
+--config=yolact_resnet50_objekt 
+--score_threshold=0.3 
+--top_k=15 
+--video=0,C:/Users/ahmet/Desktop/yolact/output_video/2.mp4
+
+
+python eval.py --trained_model=C:/Users/ahmet/Desktop/yolact/yolact_plus_resnet50_objekt_386_772_interrupt.pth --config=yolact_resnet50_objekt  --score_threshold=0.3 --top_k=15 --video=C:/Users/ahmet/Desktop/yolact/video/1.mp4,C:/Users/ahmet/Desktop/yolact/output_video/2.mp4
+python eval.py --trained_model=C:/Users/ahmet/Desktop/yolact/yolact_plus_resnet50_objekt_386_772_interrupt.pth --config=yolact_resnet50_objekt  --score_threshold=0.3 --top_k=15 --video=0
+
+python train.py --config=yolact_resnet50_Intel_RealSense
