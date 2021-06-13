@@ -1,5 +1,15 @@
 # Bin-Picking
 
+- **libraries**
+
+    - **python 3.7**
+
+    - **opencv-python 3.4.2.17**
+
+    - **pytorch 1.7.1**
+
+    - **torchvision 0.8.2**
+
 
 
 Set up the environment using command:
