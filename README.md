@@ -4,4 +4,4 @@
 
 Set up the environment using command:
 
-  conda env create -f environment.yml
+    conda env create -f environment.yml
