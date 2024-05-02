@@ -25,3 +25,6 @@ Put the weights files in a folder and copy the path of yolact_resnet50_Intel_Rea
 Be sure that you pluged the Intel Realsense Camera and just run the demo.py script and make your inference. 
 
         python demo.py
+
+## Take a closer look
+https://github.com/Ahmetnasri/Bin-Picking/assets/63724301/b3e6939c-d993-4067-bf7f-568facfac273
